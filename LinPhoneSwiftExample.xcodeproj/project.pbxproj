@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E649B9A1F2687E300416C10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E649B991F2687E300416C10 /* AppDelegate.swift */; };
+		6E649B9C1F2687E300416C10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E649B9B1F2687E300416C10 /* ViewController.swift */; };
+		6E649B9F1F2687E300416C10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E649B9D1F2687E300416C10 /* Main.storyboard */; };
+		6E649BA11F2687E300416C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E649BA01F2687E300416C10 /* Assets.xcassets */; };
+		6E649BA41F2687E300416C10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E649BA21F2687E300416C10 /* LaunchScreen.storyboard */; };
+		6E649BAF1F2687E300416C10 /* LinPhoneSwiftExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E649BAE1F2687E300416C10 /* LinPhoneSwiftExampleTests.swift */; };
+		6E649BBA1F2687E300416C10 /* LinPhoneSwiftExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E649BB91F2687E300416C10 /* LinPhoneSwiftExampleUITests.swift */; };
+		C1813A7201409BEA98E3B3D1 /* Pods_LinPhoneSwiftExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037C365E5A5CBDD9A84253A8 /* Pods_LinPhoneSwiftExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E649BAB1F2687E300416C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E649B8E1F2687E300416C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E649B951F2687E300416C10;
+			remoteInfo = LinPhoneSwiftExample;
+		};
+		6E649BB61F2687E300416C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E649B8E1F2687E300416C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E649B951F2687E300416C10;
+			remoteInfo = LinPhoneSwiftExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		037C365E5A5CBDD9A84253A8 /* Pods_LinPhoneSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinPhoneSwiftExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A659A69BE934EA1DE4A1BAE /* Pods-LinPhoneSwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinPhoneSwiftExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinPhoneSwiftExample/Pods-LinPhoneSwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
+		6E649B961F2687E300416C10 /* LinPhoneSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinPhoneSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E649B991F2687E300416C10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E649B9B1F2687E300416C10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E649B9E1F2687E300416C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E649BA01F2687E300416C10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E649BA31F2687E300416C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E649BA51F2687E300416C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E649BAA1F2687E300416C10 /* LinPhoneSwiftExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinPhoneSwiftExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E649BAE1F2687E300416C10 /* LinPhoneSwiftExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinPhoneSwiftExampleTests.swift; sourceTree = "<group>"; };
+		6E649BB01F2687E300416C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E649BB51F2687E300416C10 /* LinPhoneSwiftExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinPhoneSwiftExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E649BB91F2687E300416C10 /* LinPhoneSwiftExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinPhoneSwiftExampleUITests.swift; sourceTree = "<group>"; };
+		6E649BBB1F2687E300416C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5AFA93B24206FE06C4797AF /* Pods-LinPhoneSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinPhoneSwiftExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinPhoneSwiftExample/Pods-LinPhoneSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E649B931F2687E300416C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1813A7201409BEA98E3B3D1 /* Pods_LinPhoneSwiftExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E649BA71F2687E300416C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E649BB21F2687E300416C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E649B8D1F2687E300416C10 = {
+			isa = PBXGroup;
+			children = (
+				6E649B981F2687E300416C10 /* LinPhoneSwiftExample */,
+				6E649BAD1F2687E300416C10 /* LinPhoneSwiftExampleTests */,
+				6E649BB81F2687E300416C10 /* LinPhoneSwiftExampleUITests */,
+				6E649B971F2687E300416C10 /* Products */,
+				C68BC801032D4FA96CC64F35 /* Pods */,
+				8175B7B58FD3CBD8086C0405 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E649B971F2687E300416C10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E649B961F2687E300416C10 /* LinPhoneSwiftExample.app */,
+				6E649BAA1F2687E300416C10 /* LinPhoneSwiftExampleTests.xctest */,
+				6E649BB51F2687E300416C10 /* LinPhoneSwiftExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E649B981F2687E300416C10 /* LinPhoneSwiftExample */ = {
+			isa = PBXGroup;
+			children = (
+				6E649B991F2687E300416C10 /* AppDelegate.swift */,
+				6E649B9B1F2687E300416C10 /* ViewController.swift */,
+				6E649B9D1F2687E300416C10 /* Main.storyboard */,
+				6E649BA01F2687E300416C10 /* Assets.xcassets */,
+				6E649BA21F2687E300416C10 /* LaunchScreen.storyboard */,
+				6E649BA51F2687E300416C10 /* Info.plist */,
+			);
+			path = LinPhoneSwiftExample;
+			sourceTree = "<group>";
+		};
+		6E649BAD1F2687E300416C10 /* LinPhoneSwiftExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E649BAE1F2687E300416C10 /* LinPhoneSwiftExampleTests.swift */,
+				6E649BB01F2687E300416C10 /* Info.plist */,
+			);
+			path = LinPhoneSwiftExampleTests;
+			sourceTree = "<group>";
+		};
+		6E649BB81F2687E300416C10 /* LinPhoneSwiftExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E649BB91F2687E300416C10 /* LinPhoneSwiftExampleUITests.swift */,
+				6E649BBB1F2687E300416C10 /* Info.plist */,
+			);
+			path = LinPhoneSwiftExampleUITests;
+			sourceTree = "<group>";
+		};
+		8175B7B58FD3CBD8086C0405 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				037C365E5A5CBDD9A84253A8 /* Pods_LinPhoneSwiftExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C68BC801032D4FA96CC64F35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A659A69BE934EA1DE4A1BAE /* Pods-LinPhoneSwiftExample.debug.xcconfig */,
+				D5AFA93B24206FE06C4797AF /* Pods-LinPhoneSwiftExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E649B951F2687E300416C10 /* LinPhoneSwiftExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E649BBE1F2687E300416C10 /* Build configuration list for PBXNativeTarget "LinPhoneSwiftExample" */;
+			buildPhases = (
+				7689942998BD35DA5D26A453 /* [CP] Check Pods Manifest.lock */,
+				6E649B921F2687E300416C10 /* Sources */,
+				6E649B931F2687E300416C10 /* Frameworks */,
+				6E649B941F2687E300416C10 /* Resources */,
+				A3FEED6076EAB8608DB8104B /* [CP] Embed Pods Frameworks */,
+				1D9973E4BDE83A381BBF59C1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinPhoneSwiftExample;
+			productName = LinPhoneSwiftExample;
+			productReference = 6E649B961F2687E300416C10 /* LinPhoneSwiftExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E649BA91F2687E300416C10 /* LinPhoneSwiftExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E649BC11F2687E300416C10 /* Build configuration list for PBXNativeTarget "LinPhoneSwiftExampleTests" */;
+			buildPhases = (
+				6E649BA61F2687E300416C10 /* Sources */,
+				6E649BA71F2687E300416C10 /* Frameworks */,
+				6E649BA81F2687E300416C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E649BAC1F2687E300416C10 /* PBXTargetDependency */,
+			);
+			name = LinPhoneSwiftExampleTests;
+			productName = LinPhoneSwiftExampleTests;
+			productReference = 6E649BAA1F2687E300416C10 /* LinPhoneSwiftExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E649BB41F2687E300416C10 /* LinPhoneSwiftExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E649BC41F2687E300416C10 /* Build configuration list for PBXNativeTarget "LinPhoneSwiftExampleUITests" */;
+			buildPhases = (
+				6E649BB11F2687E300416C10 /* Sources */,
+				6E649BB21F2687E300416C10 /* Frameworks */,
+				6E649BB31F2687E300416C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E649BB71F2687E300416C10 /* PBXTargetDependency */,
+			);
+			name = LinPhoneSwiftExampleUITests;
+			productName = LinPhoneSwiftExampleUITests;
+			productReference = 6E649BB51F2687E300416C10 /* LinPhoneSwiftExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E649B8E1F2687E300416C10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alsey Coleman Miller";
+				TargetAttributes = {
+					6E649B951F2687E300416C10 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4W79SG34MW;
+						ProvisioningStyle = Automatic;
+					};
+					6E649BA91F2687E300416C10 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E649B951F2687E300416C10;
+					};
+					6E649BB41F2687E300416C10 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E649B951F2687E300416C10;
+					};
+				};
+			};
+			buildConfigurationList = 6E649B911F2687E300416C10 /* Build configuration list for PBXProject "LinPhoneSwiftExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E649B8D1F2687E300416C10;
+			productRefGroup = 6E649B971F2687E300416C10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E649B951F2687E300416C10 /* LinPhoneSwiftExample */,
+				6E649BA91F2687E300416C10 /* LinPhoneSwiftExampleTests */,
+				6E649BB41F2687E300416C10 /* LinPhoneSwiftExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E649B941F2687E300416C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E649BA41F2687E300416C10 /* LaunchScreen.storyboard in Resources */,
+				6E649BA11F2687E300416C10 /* Assets.xcassets in Resources */,
+				6E649B9F1F2687E300416C10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E649BA81F2687E300416C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E649BB31F2687E300416C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D9973E4BDE83A381BBF59C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinPhoneSwiftExample/Pods-LinPhoneSwiftExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7689942998BD35DA5D26A453 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3FEED6076EAB8608DB8104B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinPhoneSwiftExample/Pods-LinPhoneSwiftExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E649B921F2687E300416C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E649B9C1F2687E300416C10 /* ViewController.swift in Sources */,
+				6E649B9A1F2687E300416C10 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E649BA61F2687E300416C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E649BAF1F2687E300416C10 /* LinPhoneSwiftExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E649BB11F2687E300416C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E649BBA1F2687E300416C10 /* LinPhoneSwiftExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E649BAC1F2687E300416C10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E649B951F2687E300416C10 /* LinPhoneSwiftExample */;
+			targetProxy = 6E649BAB1F2687E300416C10 /* PBXContainerItemProxy */;
+		};
+		6E649BB71F2687E300416C10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E649B951F2687E300416C10 /* LinPhoneSwiftExample */;
+			targetProxy = 6E649BB61F2687E300416C10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E649B9D1F2687E300416C10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E649B9E1F2687E300416C10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E649BA21F2687E300416C10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E649BA31F2687E300416C10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E649BBC1F2687E300416C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E649BBD1F2687E300416C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E649BBF1F2687E300416C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A659A69BE934EA1DE4A1BAE /* Pods-LinPhoneSwiftExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4W79SG34MW;
+				INFOPLIST_FILE = LinPhoneSwiftExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colemancda.LinPhoneSwiftExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6E649BC01F2687E300416C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5AFA93B24206FE06C4797AF /* Pods-LinPhoneSwiftExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4W79SG34MW;
+				INFOPLIST_FILE = LinPhoneSwiftExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colemancda.LinPhoneSwiftExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6E649BC21F2687E300416C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LinPhoneSwiftExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colemancda.LinPhoneSwiftExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinPhoneSwiftExample.app/LinPhoneSwiftExample";
+			};
+			name = Debug;
+		};
+		6E649BC31F2687E300416C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LinPhoneSwiftExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colemancda.LinPhoneSwiftExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinPhoneSwiftExample.app/LinPhoneSwiftExample";
+			};
+			name = Release;
+		};
+		6E649BC51F2687E300416C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LinPhoneSwiftExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colemancda.LinPhoneSwiftExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LinPhoneSwiftExample;
+			};
+			name = Debug;
+		};
+		6E649BC61F2687E300416C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LinPhoneSwiftExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colemancda.LinPhoneSwiftExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LinPhoneSwiftExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E649B911F2687E300416C10 /* Build configuration list for PBXProject "LinPhoneSwiftExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E649BBC1F2687E300416C10 /* Debug */,
+				6E649BBD1F2687E300416C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E649BBE1F2687E300416C10 /* Build configuration list for PBXNativeTarget "LinPhoneSwiftExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E649BBF1F2687E300416C10 /* Debug */,
+				6E649BC01F2687E300416C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E649BC11F2687E300416C10 /* Build configuration list for PBXNativeTarget "LinPhoneSwiftExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E649BC21F2687E300416C10 /* Debug */,
+				6E649BC31F2687E300416C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E649BC41F2687E300416C10 /* Build configuration list for PBXNativeTarget "LinPhoneSwiftExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E649BC51F2687E300416C10 /* Debug */,
+				6E649BC61F2687E300416C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E649B8E1F2687E300416C10 /* Project object */;
+}
