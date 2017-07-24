@@ -15,15 +15,23 @@ import CLinPhone
 
 class ViewController: UIViewController {
     
-    //lazy var core: LinPhoneSwift.Core = LinPhoneSwift.Core()
+    var core: LinPhoneSwift.Core!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+                
+        self.core = Core()
         
-        let uri = URI()
+        let list = LinkedList(strings: ["test1", "test2"])
         
-        let _ = CLinPhone.LinphoneReason()
+        print("List:", list)
+        
+        let rawReason = CLinPhone.LinphoneReason(rawValue: 0)
+        
+        let reason = Reason(rawReason)
+        
+        print("Reason:", reason)
         
         self.core.iterate()
     }

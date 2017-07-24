@@ -16,12 +16,9 @@
     "path": "*"
   },
   "vendored_frameworks": "ios/*.framework",
-  "preserve_paths": [
-    "include/*.h",
-    "include/*/*.h"
-  ],
+  "preserve_paths": "include/**",
   "xcconfig": {
     "ENABLE_BITCODE": "NO",
-    "SWIFT_INCLUDE_PATHS": "${PODS_ROOT}/LinPhoneSwift/include/**"
+    "SWIFT_INCLUDE_PATHS": "${PODS_ROOT}/LinPhoneSwift/include"
   }
 }
