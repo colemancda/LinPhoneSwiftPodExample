@@ -13,7 +13,7 @@ import BelledonneToolbox
 import LinPhoneSwift
 import CLinPhone
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
     
     lazy var core: LinPhoneSwift.Core = Core()
 

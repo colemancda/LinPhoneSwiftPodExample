@@ -2,15 +2,20 @@ PODS:
   - LinPhoneSwiftPod (1.0.0)
 
 DEPENDENCIES:
-  - LinPhoneSwiftPod (from `../LinPhoneSwift-Pod`)
+  - LinPhoneSwiftPod (from `https://github.com/colemancda/LinPhoneSwift-Pod.git`)
 
 EXTERNAL SOURCES:
   LinPhoneSwiftPod:
-    :path: ../LinPhoneSwift-Pod
+    :git: https://github.com/colemancda/LinPhoneSwift-Pod.git
+
+CHECKOUT OPTIONS:
+  LinPhoneSwiftPod:
+    :commit: 7724a2fa146240c72e5a7a481f7f08b2263767c8
+    :git: https://github.com/colemancda/LinPhoneSwift-Pod.git
 
 SPEC CHECKSUMS:
   LinPhoneSwiftPod: 49fed85759707cd477d7c684b495d119c2306aec
 
-PODFILE CHECKSUM: 64eeca6150833de60ea652c15a65f84f4222cb3d
+PODFILE CHECKSUM: 5b6c870813c28715a5f25113bceefbf68822a72a
 
 COCOAPODS: 1.2.1
