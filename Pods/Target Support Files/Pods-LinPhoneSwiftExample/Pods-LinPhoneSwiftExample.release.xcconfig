@@ -1,12 +1,11 @@
 ENABLE_BITCODE = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../LinPhoneSwift-Pod/ios"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../LinPhoneSwift-Pod/Carthage/Build/iOS"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/LinPhoneSwift"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/LinPhoneSwiftPod"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited)  -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/LinPhoneSwift"
+OTHER_CFLAGS = $(inherited)  -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/LinPhoneSwiftPod"
 OTHER_LDFLAGS = $(inherited) -framework "BelledonneSIP" -framework "BelledonneToolbox" -framework "LinPhoneSwift" -framework "MediaStreamer" -framework "bctoolbox" -framework "linphone" -framework "mediastreamer_base" -framework "mediastreamer_voip" -framework "msamr" -framework "mscodec2" -framework "msopenh264" -framework "mssilk" -framework "mswebrtc" -framework "msx264" -framework "ortp"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
 PODS_ROOT = ${SRCROOT}/Pods
-SWIFT_INCLUDE_PATHS = ${PODS_ROOT}/LinPhoneSwift/include

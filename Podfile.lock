@@ -1,16 +1,16 @@
 PODS:
-  - LinPhoneSwift (1.0.0)
+  - LinPhoneSwiftPod (1.0.0)
 
 DEPENDENCIES:
-  - LinPhoneSwift (from `../LinPhoneSwift-Pod`)
+  - LinPhoneSwiftPod (from `../LinPhoneSwift-Pod`)
 
 EXTERNAL SOURCES:
-  LinPhoneSwift:
+  LinPhoneSwiftPod:
     :path: ../LinPhoneSwift-Pod
 
 SPEC CHECKSUMS:
-  LinPhoneSwift: f3d114ffc00047566ea27c62d561af00ea237127
+  LinPhoneSwiftPod: 49fed85759707cd477d7c684b495d119c2306aec
 
-PODFILE CHECKSUM: 94f76c9f4699b2354aab96434c490274ebbc3ace
+PODFILE CHECKSUM: 64eeca6150833de60ea652c15a65f84f4222cb3d
 
 COCOAPODS: 1.2.1

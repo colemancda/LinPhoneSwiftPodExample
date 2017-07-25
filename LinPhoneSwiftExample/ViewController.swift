@@ -15,7 +15,7 @@ import CLinPhone
 
 class ViewController: UIViewController {
     
-    lazy var core: LinPhoneSwift.Core = Core()!
+    lazy var core: LinPhoneSwift.Core = Core()
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -1,3 +1,0 @@
-framework module BelledonneSIP {
-    header "BelledonneSIP-Swift.h"
-}

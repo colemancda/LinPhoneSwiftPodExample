@@ -1,3 +1,0 @@
-framework module MediaStreamer {
-    header "MediaStreamer-Swift.h"
-}
