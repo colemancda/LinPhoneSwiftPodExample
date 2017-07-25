@@ -15,13 +15,11 @@ import CLinPhone
 
 class ViewController: UIViewController {
     
-    var core: LinPhoneSwift.Core!
+    lazy var core: LinPhoneSwift.Core = Core()!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-                
-        self.core = Core()
         
         let list = LinkedList(strings: ["test1", "test2"])
         
