@@ -1,21 +1,22 @@
 PODS:
-  - LinPhoneSwiftPod (1.0.0)
+  - BelledonneToolbox (1.0.0)
+  - LinPhoneSwift (1.0.0):
+    - BelledonneToolbox
 
 DEPENDENCIES:
-  - LinPhoneSwiftPod (from `https://github.com/colemancda/LinPhoneSwift-Pod.git`)
+  - BelledonneToolbox (from `~/developer/LinPhoneSwift`)
+  - LinPhoneSwift (from `~/developer/LinPhoneSwift`)
 
 EXTERNAL SOURCES:
-  LinPhoneSwiftPod:
-    :git: https://github.com/colemancda/LinPhoneSwift-Pod.git
-
-CHECKOUT OPTIONS:
-  LinPhoneSwiftPod:
-    :commit: 7724a2fa146240c72e5a7a481f7f08b2263767c8
-    :git: https://github.com/colemancda/LinPhoneSwift-Pod.git
+  BelledonneToolbox:
+    :path: ~/developer/LinPhoneSwift
+  LinPhoneSwift:
+    :path: ~/developer/LinPhoneSwift
 
 SPEC CHECKSUMS:
-  LinPhoneSwiftPod: 49fed85759707cd477d7c684b495d119c2306aec
+  BelledonneToolbox: 0ad8941980794b56d89dc1929591de0c9c23ae8f
+  LinPhoneSwift: 1300bbd01ca93cbe7d21443e93740419c7b8a0f9
 
-PODFILE CHECKSUM: 5b6c870813c28715a5f25113bceefbf68822a72a
+PODFILE CHECKSUM: 108e6d645d1053f12668e9acf7905a0bbc7b4197
 
 COCOAPODS: 1.2.1

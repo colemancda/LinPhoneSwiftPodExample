@@ -89,38 +89,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/bctoolbox.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/BelledonneSIP.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/BelledonneToolbox.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/linphone.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/LinPhoneSwift.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/MediaStreamer.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/mediastreamer_base.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/mediastreamer_voip.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/msamr.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/mscodec2.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/msopenh264.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/mssilk.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/mswebrtc.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/msx264.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/ortp.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/BelledonneToolbox/BelledonneToolbox.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/LinPhoneSwift/LinPhoneSwift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/bctoolbox.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/BelledonneSIP.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/BelledonneToolbox.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/linphone.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/LinPhoneSwift.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/MediaStreamer.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/mediastreamer_base.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/mediastreamer_voip.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/msamr.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/mscodec2.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/msopenh264.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/mssilk.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/mswebrtc.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/msx264.framework"
-  install_framework "${PODS_ROOT}/LinPhoneSwiftPod/Carthage/Build/iOS/ortp.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/BelledonneToolbox/BelledonneToolbox.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/LinPhoneSwift/LinPhoneSwift.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

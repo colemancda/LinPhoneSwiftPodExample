@@ -7,54 +7,196 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A40374759CE2B1C1B9CF3230CC2596AB /* Pods-LinPhoneSwiftExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04404DC4DBFE5703DB90276E3E3E8B3C /* Pods-LinPhoneSwiftExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADEAF3EF87A28D5238F88D95CF7F4852 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E938AB8E4EE1935216F361E02F2ED3E8 /* Pods-LinPhoneSwiftExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AFFBFD55D4BC66213896AC5C1009 /* Pods-LinPhoneSwiftExample-dummy.m */; };
+		017DCABE746DAF7A4D3386D386FA7683 /* CallParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BA5D3DF006B04BE8F91AF165BF597C /* CallParameters.swift */; };
+		07CEA911DEA8A62A6AE84586D47FB162 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD1D26E38499810E215DF15BEFB91FB /* Factory.swift */; };
+		098E59D24451420E9C4C9C42B2073A78 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F56A4998424577024CDF4C67BB0CF89 /* Bool.swift */; };
+		1F11FB2BF833BF2D1B67C43928B64602 /* Reason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E9223D358DF7F038E370EA6F2ED8D5 /* Reason.swift */; };
+		22217F86FCE35D8562819459E1A90809 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536EFFFF9C4BED37EFC898A82645320 /* Core.swift */; };
+		26E9D97D2CD4C8EE4E6DF7C0A7D3E5DB /* CallStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228A598BA85249DCD4B5969553754816 /* CallStats.swift */; };
+		31BD1A7F05F932F8456A9DA028889E7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5200F3F4134A70E12241BFC6891EA885 /* Foundation.framework */; };
+		3416F9194091CACF27B3134AB0FA7A57 /* BelledonneToolbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDDD000FD7C26BD74B51E64751049D1 /* BelledonneToolbox-dummy.m */; };
+		3A38CF39142405B056D8A28E70D7B36E /* Enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB39996E6A96C4E9C3F5B38C43D3AE63 /* Enumeration.swift */; };
+		4746FE1A3F509C66C7CF55A0B4F6814E /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727942C335CC12AF3B69EB341A6FF13C /* LinkedList.swift */; };
+		543BA0699BF597512D876C806DA07EB5 /* Handle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56103878F3A1C64069DCBF58CB43B99C /* Handle.swift */; };
+		54CF6BA7665DE6B19C231F20860621C3 /* LinPhoneSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F65DABB0CB71B08527D1BF07A30E580 /* LinPhoneSwift-dummy.m */; };
+		5DDE2E98DF128CAEAA0962226904BDFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5200F3F4134A70E12241BFC6891EA885 /* Foundation.framework */; };
+		64A9E1232045D646916FBCF33146CCA6 /* Handle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B90308AE9254C799EDA75B66ED20E5 /* Handle.swift */; };
+		6512FA2673E620555163CFB65074E538 /* PayloadType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658596CD5F32D4297A387B8C6CD04E54 /* PayloadType.swift */; };
+		6966C4451426349F10F32FC6E390258A /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369ECD7D4F40FF041009AE6505A48F9D /* Configuration.swift */; };
+		6DB8E9207D3DE5353266ECC3F0127F9C /* Pods-LinPhoneSwiftExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24AFFBFD55D4BC66213896AC5C1009 /* Pods-LinPhoneSwiftExample-dummy.m */; };
+		7DA2FF25CCDEF4D2CEB63347650E6FE5 /* CallLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFC3AFF1AE03AC2C768F6898CEBC75 /* CallLog.swift */; };
+		7EF61C0D35F0B440007469B08F0579DF /* MediaEncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B101C11B14BBB74F7BD8FBDCC2DB08 /* MediaEncryption.swift */; };
+		8B11419519B21CEC65F28C928CA6E0E1 /* BelledonneToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A023E216A0A8C7BD8E039C086254BB /* BelledonneToolbox.framework */; };
+		8E12880ECCB6507E344D6A776C7062A8 /* Tunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA4819D4B0AAA46416289F1F9F2FD40 /* Tunnel.swift */; };
+		8E87E67B3CC356798A43BA50580DD44F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5200F3F4134A70E12241BFC6891EA885 /* Foundation.framework */; };
+		A521F31A255EB4935A13DAC672D50EBC /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C30C877C19874B5E2C08ABE4A1F92D /* Address.swift */; };
+		B3E238532A70BB2FBCA5F275F84CD7E0 /* RegistrationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE78896524AEC24D17E6CD11F0A399D9 /* RegistrationState.swift */; };
+		B8A786CF3DAAEB024F585AA1FF315176 /* ErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056DA0B6B174110327372DACB42F539E /* ErrorInfo.swift */; };
+		BB260625AB0A5B14B0D25149D6919954 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30AF9B1AC556DF2DC0BADB05D1AD92D /* Transport.swift */; };
+		BF16F4FA3636000F0B72CBE354CD32D0 /* VideoPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6475A4DB42B1CD2301A5480A2F2F4793 /* VideoPolicy.swift */; };
+		C077EEFC27870915AD5001C844B5D995 /* ObjectHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F151505FE56D84B31570B518ACE9F3D /* ObjectHandle.swift */; };
+		C75DE73A44AA7D5AEB3A41F295C3B24B /* BelledonneToolbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FEA367C8929569C840569A70935EBE6 /* BelledonneToolbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C88C884A00A8D740E3C121537A6FF21D /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F56A4998424577024CDF4C67BB0CF89 /* Bool.swift */; };
+		D223F13D1D0579C0BD5EFB31DD4B4BCA /* SipTransports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8C51950CDAB534F8A07B86A67E9DA /* SipTransports.swift */; };
+		D72F8C4F876A2A4774EE0B059C19E4C5 /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74134B5FEBBA6C13573130C9A868F0B9 /* Conference.swift */; };
+		D9E7C2B6C31706B8038574046DDBE1A4 /* StreamType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81781D0152760DE06F35A2F8DA30F7D3 /* StreamType.swift */; };
+		E7E861B2C87CED3828378A4D3029C1F5 /* LinPhoneSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C63F52A18A1863C6C1D08B570AC58F5B /* LinPhoneSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED0E8E36CC687C1327B51F80F735CC4F /* Pods-LinPhoneSwiftExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04404DC4DBFE5703DB90276E3E3E8B3C /* Pods-LinPhoneSwiftExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F273713BFC60D91C572C146B67A25E4A /* Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D81F13916CA2832EF7AB2FB272F0870 /* Internal.swift */; };
+		FB449C6E2FABF04CE87A6D8ED67A36BB /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9802B24C4A9E92F88159FF169B96DC /* Call.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		12353ABA31CB42CB9FB40872FC689F5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53AC3D81ECDCE6C32DD157FBCB5CCDD1;
+			remoteInfo = BelledonneToolbox;
+		};
+		29B6890BE6C1E5CDA6BDD24177D901B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53AC3D81ECDCE6C32DD157FBCB5CCDD1;
+			remoteInfo = BelledonneToolbox;
+		};
+		7636DEF349AE89D911A6AAB5C2A7FB22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23204B918AF7E76CD6646713DA5743E9;
+			remoteInfo = LinPhoneSwift;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		01B0282AD3919132AB98255A34855F86 /* linphone.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = linphone.framework; path = Carthage/Build/iOS/linphone.framework; sourceTree = "<group>"; };
 		04404DC4DBFE5703DB90276E3E3E8B3C /* Pods-LinPhoneSwiftExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LinPhoneSwiftExample-umbrella.h"; sourceTree = "<group>"; };
-		084B32CFF8AB548239E9084920DE9C2B /* msamr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = msamr.framework; path = Carthage/Build/iOS/msamr.framework; sourceTree = "<group>"; };
-		0A20E45B997FD013F43456AF453EE665 /* msopenh264.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = msopenh264.framework; path = Carthage/Build/iOS/msopenh264.framework; sourceTree = "<group>"; };
-		239204CEF484FA5855C8BA7A7598E54D /* msx264.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = msx264.framework; path = Carthage/Build/iOS/msx264.framework; sourceTree = "<group>"; };
-		2E117AC1AC5C69B90336F03E480E9B0C /* mediastreamer_base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mediastreamer_base.framework; path = Carthage/Build/iOS/mediastreamer_base.framework; sourceTree = "<group>"; };
+		056DA0B6B174110327372DACB42F539E /* ErrorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ErrorInfo.swift; sourceTree = "<group>"; };
+		0AA4819D4B0AAA46416289F1F9F2FD40 /* Tunnel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Tunnel.swift; sourceTree = "<group>"; };
+		1DE41974E39C1DB118158F30B693E262 /* Pods_LinPhoneSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LinPhoneSwiftExample.framework; path = "Pods-LinPhoneSwiftExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF3A1428A7665F7EFF211772E002047 /* LinPhoneSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LinPhoneSwift.modulemap; sourceTree = "<group>"; };
+		1FEA367C8929569C840569A70935EBE6 /* BelledonneToolbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BelledonneToolbox-umbrella.h"; sourceTree = "<group>"; };
+		228A598BA85249DCD4B5969553754816 /* CallStats.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CallStats.swift; sourceTree = "<group>"; };
+		22E4C55360B264C6D3E8A19368DFDD90 /* LinPhoneSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LinPhoneSwift.framework; path = LinPhoneSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2536EFFFF9C4BED37EFC898A82645320 /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		29C09DBAC62333BA8A60A7EBF06B02EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C30C877C19874B5E2C08ABE4A1F92D /* Address.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		369ECD7D4F40FF041009AE6505A48F9D /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		36D34131E3FD1B1D3F2FBC3597CE1B33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9802B24C4A9E92F88159FF169B96DC /* Call.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Call.swift; sourceTree = "<group>"; };
 		3F24AFFBFD55D4BC66213896AC5C1009 /* Pods-LinPhoneSwiftExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LinPhoneSwiftExample-dummy.m"; sourceTree = "<group>"; };
-		61890A67221D42225D7F1D4D5CE5CA40 /* BelledonneSIP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BelledonneSIP.framework; path = Carthage/Build/iOS/BelledonneSIP.framework; sourceTree = "<group>"; };
-		629F8997610050A53799AC2A4704341A /* BelledonneToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BelledonneToolbox.framework; path = Carthage/Build/iOS/BelledonneToolbox.framework; sourceTree = "<group>"; };
-		64353F1C39CBA5CC9534E2BF43AA71B8 /* LinPhoneSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinPhoneSwift.framework; path = Carthage/Build/iOS/LinPhoneSwift.framework; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		48F16858E005956E04B0E1462D4A0DAB /* BelledonneToolbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BelledonneToolbox-prefix.pch"; sourceTree = "<group>"; };
+		5200F3F4134A70E12241BFC6891EA885 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		56103878F3A1C64069DCBF58CB43B99C /* Handle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Handle.swift; sourceTree = "<group>"; };
+		5D81F13916CA2832EF7AB2FB272F0870 /* Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Internal.swift; sourceTree = "<group>"; };
+		6475A4DB42B1CD2301A5480A2F2F4793 /* VideoPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoPolicy.swift; sourceTree = "<group>"; };
+		658596CD5F32D4297A387B8C6CD04E54 /* PayloadType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PayloadType.swift; sourceTree = "<group>"; };
+		66B90308AE9254C799EDA75B66ED20E5 /* Handle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Handle.swift; path = ../LinPhone/Handle.swift; sourceTree = "<group>"; };
 		68586DADCED8463F36D39614C037494B /* Pods-LinPhoneSwiftExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LinPhoneSwiftExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		68D1AEFD95FE84DF7D8BCE43B444AD32 /* mssilk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mssilk.framework; path = Carthage/Build/iOS/mssilk.framework; sourceTree = "<group>"; };
 		6C12A755AD9ABE23FAA23A556336F7D9 /* Pods-LinPhoneSwiftExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LinPhoneSwiftExample-frameworks.sh"; sourceTree = "<group>"; };
-		73391AFB6A90166851DCCADBC3F9A143 /* mscodec2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mscodec2.framework; path = Carthage/Build/iOS/mscodec2.framework; sourceTree = "<group>"; };
+		727942C335CC12AF3B69EB341A6FF13C /* LinkedList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		72E9223D358DF7F038E370EA6F2ED8D5 /* Reason.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Reason.swift; sourceTree = "<group>"; };
+		74134B5FEBBA6C13573130C9A868F0B9 /* Conference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Conference.swift; sourceTree = "<group>"; };
 		7986B3F41BF52DB4AF23492C9436C5E6 /* Pods-LinPhoneSwiftExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LinPhoneSwiftExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7CDDD000FD7C26BD74B51E64751049D1 /* BelledonneToolbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BelledonneToolbox-dummy.m"; sourceTree = "<group>"; };
 		7D53C0C6EB1FA730248E4BC553068149 /* Pods-LinPhoneSwiftExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LinPhoneSwiftExample-resources.sh"; sourceTree = "<group>"; };
-		880018FFBDDD0C9E917371252E017F9D /* MediaStreamer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaStreamer.framework; path = Carthage/Build/iOS/MediaStreamer.framework; sourceTree = "<group>"; };
+		7F56A4998424577024CDF4C67BB0CF89 /* Bool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
+		81781D0152760DE06F35A2F8DA30F7D3 /* StreamType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StreamType.swift; sourceTree = "<group>"; };
+		88C8C51950CDAB534F8A07B86A67E9DA /* SipTransports.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SipTransports.swift; sourceTree = "<group>"; };
+		8AFFC3AFF1AE03AC2C768F6898CEBC75 /* CallLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CallLog.swift; sourceTree = "<group>"; };
+		8F151505FE56D84B31570B518ACE9F3D /* ObjectHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectHandle.swift; path = ../BelledonneSIP/ObjectHandle.swift; sourceTree = "<group>"; };
+		8F65DABB0CB71B08527D1BF07A30E580 /* LinPhoneSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LinPhoneSwift-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94F17E6E9D12CA7D7A07B40E99E70F33 /* Pods_LinPhoneSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LinPhoneSwiftExample.framework; path = "Pods-LinPhoneSwiftExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4477AC0C878411ED75833ACB4CA5BBC /* mswebrtc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mswebrtc.framework; path = Carthage/Build/iOS/mswebrtc.framework; sourceTree = "<group>"; };
-		D00B770B086636666DA73AF3C19F4FD5 /* ortp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ortp.framework; path = Carthage/Build/iOS/ortp.framework; sourceTree = "<group>"; };
+		9D1A65CCC6CBEC857F9DD4D4800FE33E /* LinPhoneSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LinPhoneSwift.xcconfig; sourceTree = "<group>"; };
+		B30AF9B1AC556DF2DC0BADB05D1AD92D /* Transport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Transport.swift; sourceTree = "<group>"; };
+		BA46DD3D74EE7955F241836B71CEF001 /* LinPhoneSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LinPhoneSwift-prefix.pch"; sourceTree = "<group>"; };
+		BB39996E6A96C4E9C3F5B38C43D3AE63 /* Enumeration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Enumeration.swift; sourceTree = "<group>"; };
+		C63F52A18A1863C6C1D08B570AC58F5B /* LinPhoneSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LinPhoneSwift-umbrella.h"; sourceTree = "<group>"; };
+		D0A023E216A0A8C7BD8E039C086254BB /* BelledonneToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BelledonneToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BA5D3DF006B04BE8F91AF165BF597C /* CallParameters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CallParameters.swift; sourceTree = "<group>"; };
 		D5365885DBE4AF810981346AB75A5A37 /* Pods-LinPhoneSwiftExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LinPhoneSwiftExample.modulemap"; sourceTree = "<group>"; };
+		D8B101C11B14BBB74F7BD8FBDCC2DB08 /* MediaEncryption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MediaEncryption.swift; sourceTree = "<group>"; };
+		DDCDA5C64380A909B38DFFC1DA903281 /* BelledonneToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BelledonneToolbox.framework; path = BelledonneToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD1D26E38499810E215DF15BEFB91FB /* Factory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		DDE636EAEA293B67FCC7D84FA7364B04 /* Pods-LinPhoneSwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinPhoneSwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
-		DFE07F105A1CB0F81F2CDB67D9B5B70F /* mediastreamer_voip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mediastreamer_voip.framework; path = Carthage/Build/iOS/mediastreamer_voip.framework; sourceTree = "<group>"; };
-		F8E27B858254B621E3EDB1066C8C1F82 /* bctoolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = bctoolbox.framework; path = Carthage/Build/iOS/bctoolbox.framework; sourceTree = "<group>"; };
+		E03B8BDF340BA154C3029A421B74B7DB /* BelledonneToolbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BelledonneToolbox.modulemap; sourceTree = "<group>"; };
+		E4C11F60EBAAF9930BDBA05D62335C92 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA2079936CAF020B8EFE4A0C51427B5 /* BelledonneToolbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BelledonneToolbox.xcconfig; sourceTree = "<group>"; };
 		F9D856EE2515960B58F89A87AE3EFE8F /* Pods-LinPhoneSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinPhoneSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
+		FE78896524AEC24D17E6CD11F0A399D9 /* RegistrationState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegistrationState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A2A93BF711E68723D9CBD1576CA80CD4 /* Frameworks */ = {
+		40A024E9D0FCB21313F0128CDBBBD0BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADEAF3EF87A28D5238F88D95CF7F4852 /* Foundation.framework in Frameworks */,
+				8E87E67B3CC356798A43BA50580DD44F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB10D4398162E943A1760FBDBD59F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B11419519B21CEC65F28C928CA6E0E1 /* BelledonneToolbox.framework in Frameworks */,
+				5DDE2E98DF128CAEAA0962226904BDFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72842431DCB64ECCFF80C297D811499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BD1A7F05F932F8456A9DA028889E7E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		027301D78DD1CFC0EB1C59F81EE753A2 /* LinPhone */ = {
+			isa = PBXGroup;
+			children = (
+				35C30C877C19874B5E2C08ABE4A1F92D /* Address.swift */,
+				3C9802B24C4A9E92F88159FF169B96DC /* Call.swift */,
+				8AFFC3AFF1AE03AC2C768F6898CEBC75 /* CallLog.swift */,
+				D3BA5D3DF006B04BE8F91AF165BF597C /* CallParameters.swift */,
+				228A598BA85249DCD4B5969553754816 /* CallStats.swift */,
+				74134B5FEBBA6C13573130C9A868F0B9 /* Conference.swift */,
+				369ECD7D4F40FF041009AE6505A48F9D /* Configuration.swift */,
+				2536EFFFF9C4BED37EFC898A82645320 /* Core.swift */,
+				BB39996E6A96C4E9C3F5B38C43D3AE63 /* Enumeration.swift */,
+				056DA0B6B174110327372DACB42F539E /* ErrorInfo.swift */,
+				DDD1D26E38499810E215DF15BEFB91FB /* Factory.swift */,
+				56103878F3A1C64069DCBF58CB43B99C /* Handle.swift */,
+				5D81F13916CA2832EF7AB2FB272F0870 /* Internal.swift */,
+				D8B101C11B14BBB74F7BD8FBDCC2DB08 /* MediaEncryption.swift */,
+				8F151505FE56D84B31570B518ACE9F3D /* ObjectHandle.swift */,
+				658596CD5F32D4297A387B8C6CD04E54 /* PayloadType.swift */,
+				72E9223D358DF7F038E370EA6F2ED8D5 /* Reason.swift */,
+				FE78896524AEC24D17E6CD11F0A399D9 /* RegistrationState.swift */,
+				88C8C51950CDAB534F8A07B86A67E9DA /* SipTransports.swift */,
+				81781D0152760DE06F35A2F8DA30F7D3 /* StreamType.swift */,
+				B30AF9B1AC556DF2DC0BADB05D1AD92D /* Transport.swift */,
+				0AA4819D4B0AAA46416289F1F9F2FD40 /* Tunnel.swift */,
+				6475A4DB42B1CD2301A5480A2F2F4793 /* VideoPolicy.swift */,
+			);
+			name = LinPhone;
+			path = LinPhone;
+			sourceTree = "<group>";
+		};
+		060BF8F006506F2C48859250D695EA30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDCDA5C64380A909B38DFFC1DA903281 /* BelledonneToolbox.framework */,
+				22E4C55360B264C6D3E8A19368DFDD90 /* LinPhoneSwift.framework */,
+				1DE41974E39C1DB118158F30B693E262 /* Pods_LinPhoneSwiftExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		1B8A550E3B5554F01593B2E3333D81DA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -63,51 +205,66 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		341410565327412A770FBAB57E16683F /* Products */ = {
+		21B24316EEC54D76B1C5D1D58142C037 /* BelledonneToolbox */ = {
 			isa = PBXGroup;
 			children = (
-				94F17E6E9D12CA7D7A07B40E99E70F33 /* Pods_LinPhoneSwiftExample.framework */,
+				7F56A4998424577024CDF4C67BB0CF89 /* Bool.swift */,
+				66B90308AE9254C799EDA75B66ED20E5 /* Handle.swift */,
+				727942C335CC12AF3B69EB341A6FF13C /* LinkedList.swift */,
 			);
-			name = Products;
+			name = BelledonneToolbox;
+			path = BelledonneToolbox;
 			sourceTree = "<group>";
 		};
-		7825D302082E0257A34BD7EA17502F6C /* Frameworks */ = {
+		275B36CE454C692971E44C0E59AC1FA9 /* LinPhoneSwift */ = {
 			isa = PBXGroup;
 			children = (
-				F8E27B858254B621E3EDB1066C8C1F82 /* bctoolbox.framework */,
-				61890A67221D42225D7F1D4D5CE5CA40 /* BelledonneSIP.framework */,
-				629F8997610050A53799AC2A4704341A /* BelledonneToolbox.framework */,
-				01B0282AD3919132AB98255A34855F86 /* linphone.framework */,
-				64353F1C39CBA5CC9534E2BF43AA71B8 /* LinPhoneSwift.framework */,
-				880018FFBDDD0C9E917371252E017F9D /* MediaStreamer.framework */,
-				2E117AC1AC5C69B90336F03E480E9B0C /* mediastreamer_base.framework */,
-				DFE07F105A1CB0F81F2CDB67D9B5B70F /* mediastreamer_voip.framework */,
-				084B32CFF8AB548239E9084920DE9C2B /* msamr.framework */,
-				73391AFB6A90166851DCCADBC3F9A143 /* mscodec2.framework */,
-				0A20E45B997FD013F43456AF453EE665 /* msopenh264.framework */,
-				68D1AEFD95FE84DF7D8BCE43B444AD32 /* mssilk.framework */,
-				B4477AC0C878411ED75833ACB4CA5BBC /* mswebrtc.framework */,
-				239204CEF484FA5855C8BA7A7598E54D /* msx264.framework */,
-				D00B770B086636666DA73AF3C19F4FD5 /* ortp.framework */,
+				F8CD651E2F27017F303739C4C4D8182F /* Sources */,
+				9FA2481B26B1E10F3E44AB39E7013008 /* Support Files */,
+			);
+			name = LinPhoneSwift;
+			path = /Users/coleman/developer/LinPhoneSwift;
+			sourceTree = "<absolute>";
+		};
+		6BDF42C029B493D6657E9C4458DDF679 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0A023E216A0A8C7BD8E039C086254BB /* BelledonneToolbox.framework */,
+				FDADACF37B9576EF0D0F94D30779F8AA /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7CC9C1E4C44EF69ADB91BC40F81FE175 /* Pods */ = {
+		749D401C7327E13C0A1F66B0E199982C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A74992DE83616930EFF3D3827FDFB66F /* LinPhoneSwiftPod */,
+				E03B8BDF340BA154C3029A421B74B7DB /* BelledonneToolbox.modulemap */,
+				EAA2079936CAF020B8EFE4A0C51427B5 /* BelledonneToolbox.xcconfig */,
+				7CDDD000FD7C26BD74B51E64751049D1 /* BelledonneToolbox-dummy.m */,
+				48F16858E005956E04B0E1462D4A0DAB /* BelledonneToolbox-prefix.pch */,
+				1FEA367C8929569C840569A70935EBE6 /* BelledonneToolbox-umbrella.h */,
+				E4C11F60EBAAF9930BDBA05D62335C92 /* Info.plist */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../../Developer/LinPhoneSwiftPodExample/Pods/Target Support Files/BelledonneToolbox";
+			sourceTree = "<group>";
+		};
+		76F896282BA0857E16E930742512F562 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				21B24316EEC54D76B1C5D1D58142C037 /* BelledonneToolbox */,
+			);
+			name = Sources;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				7CC9C1E4C44EF69ADB91BC40F81FE175 /* Pods */,
-				341410565327412A770FBAB57E16683F /* Products */,
+				A4DA6188B827C5BDBFBD2CEC52392E0F /* Development Pods */,
+				6BDF42C029B493D6657E9C4458DDF679 /* Frameworks */,
+				060BF8F006506F2C48859250D695EA30 /* Products */,
 				1B8A550E3B5554F01593B2E3333D81DA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -130,27 +287,52 @@
 			path = "Target Support Files/Pods-LinPhoneSwiftExample";
 			sourceTree = "<group>";
 		};
-		A74992DE83616930EFF3D3827FDFB66F /* LinPhoneSwiftPod */ = {
+		9FA2481B26B1E10F3E44AB39E7013008 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7825D302082E0257A34BD7EA17502F6C /* Frameworks */,
+				29C09DBAC62333BA8A60A7EBF06B02EA /* Info.plist */,
+				1EF3A1428A7665F7EFF211772E002047 /* LinPhoneSwift.modulemap */,
+				9D1A65CCC6CBEC857F9DD4D4800FE33E /* LinPhoneSwift.xcconfig */,
+				8F65DABB0CB71B08527D1BF07A30E580 /* LinPhoneSwift-dummy.m */,
+				BA46DD3D74EE7955F241836B71CEF001 /* LinPhoneSwift-prefix.pch */,
+				C63F52A18A1863C6C1D08B570AC58F5B /* LinPhoneSwift-umbrella.h */,
 			);
-			name = LinPhoneSwiftPod;
-			path = LinPhoneSwiftPod;
+			name = "Support Files";
+			path = "../../Developer/LinPhoneSwiftPodExample/Pods/Target Support Files/LinPhoneSwift";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A4DA6188B827C5BDBFBD2CEC52392E0F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				BB3A962D43889626B2ECB47A85BD70C1 /* BelledonneToolbox */,
+				275B36CE454C692971E44C0E59AC1FA9 /* LinPhoneSwift */,
 			);
-			name = Frameworks;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		BB3A962D43889626B2ECB47A85BD70C1 /* BelledonneToolbox */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				76F896282BA0857E16E930742512F562 /* Sources */,
+				749D401C7327E13C0A1F66B0E199982C /* Support Files */,
+			);
+			name = BelledonneToolbox;
+			path = /Users/coleman/developer/LinPhoneSwift;
+			sourceTree = "<absolute>";
+		};
+		F8CD651E2F27017F303739C4C4D8182F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				027301D78DD1CFC0EB1C59F81EE753A2 /* LinPhone */,
+			);
+			name = Sources;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FDADACF37B9576EF0D0F94D30779F8AA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5200F3F4134A70E12241BFC6891EA885 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -158,32 +340,85 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5F1138F0B946B9E31A15697F8C8E2A7C /* Headers */ = {
+		1416FC306FB2F66008FB958DD66C2D9E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A40374759CE2B1C1B9CF3230CC2596AB /* Pods-LinPhoneSwiftExample-umbrella.h in Headers */,
+				ED0E8E36CC687C1327B51F80F735CC4F /* Pods-LinPhoneSwiftExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F77BDE7E488FA4C6454BE56A2451158 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E861B2C87CED3828378A4D3029C1F5 /* LinPhoneSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A1AC2D8444A6AB718856AC0C4778CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75DE73A44AA7D5AEB3A41F295C3B24B /* BelledonneToolbox-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BBBBAE6CECB561C5CB977E56ECAAED0D /* Pods-LinPhoneSwiftExample */ = {
+		09312D7F2831A57BE420B9401FC4F0FD /* Pods-LinPhoneSwiftExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 240A7D8D1ED789F27CCFE7521B5B1C18 /* Build configuration list for PBXNativeTarget "Pods-LinPhoneSwiftExample" */;
+			buildConfigurationList = 80CF248E9860831891B3415B5098696D /* Build configuration list for PBXNativeTarget "Pods-LinPhoneSwiftExample" */;
 			buildPhases = (
-				A3358DCA6B6FAAD286D1937B7607A72C /* Sources */,
-				A2A93BF711E68723D9CBD1576CA80CD4 /* Frameworks */,
-				5F1138F0B946B9E31A15697F8C8E2A7C /* Headers */,
+				9EDC4838AD92C74BDA0B5F2BA4CDCF3D /* Sources */,
+				40A024E9D0FCB21313F0128CDBBBD0BF /* Frameworks */,
+				1416FC306FB2F66008FB958DD66C2D9E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45B1A992B9967806AE0192C465FCFE8D /* PBXTargetDependency */,
+				D5816B90232F188112DDC91BC7F1E9AE /* PBXTargetDependency */,
+			);
+			name = "Pods-LinPhoneSwiftExample";
+			productName = "Pods-LinPhoneSwiftExample";
+			productReference = 1DE41974E39C1DB118158F30B693E262 /* Pods_LinPhoneSwiftExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		23204B918AF7E76CD6646713DA5743E9 /* LinPhoneSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FA2F266956EF78216E16AD44547AEDC /* Build configuration list for PBXNativeTarget "LinPhoneSwift" */;
+			buildPhases = (
+				D73B4C137F866D6A92015FDD066E0B7C /* Sources */,
+				CDB10D4398162E943A1760FBDBD59F63 /* Frameworks */,
+				6F77BDE7E488FA4C6454BE56A2451158 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6CB36C433E935B0BD53F91B33944139 /* PBXTargetDependency */,
+			);
+			name = LinPhoneSwift;
+			productName = LinPhoneSwift;
+			productReference = 22E4C55360B264C6D3E8A19368DFDD90 /* LinPhoneSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		53AC3D81ECDCE6C32DD157FBCB5CCDD1 /* BelledonneToolbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D2D9A6A3E3911832F3A7ABCC97D8360 /* Build configuration list for PBXNativeTarget "BelledonneToolbox" */;
+			buildPhases = (
+				AAC527CA70C6AC845F28A3C8275E8CF0 /* Sources */,
+				E72842431DCB64ECCFF80C297D811499 /* Frameworks */,
+				D0A1AC2D8444A6AB718856AC0C4778CC /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-LinPhoneSwiftExample";
-			productName = "Pods-LinPhoneSwiftExample";
-			productReference = 94F17E6E9D12CA7D7A07B40E99E70F33 /* Pods_LinPhoneSwiftExample.framework */;
+			name = BelledonneToolbox;
+			productName = BelledonneToolbox;
+			productReference = DDCDA5C64380A909B38DFFC1DA903281 /* BelledonneToolbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -203,28 +438,133 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 341410565327412A770FBAB57E16683F /* Products */;
+			productRefGroup = 060BF8F006506F2C48859250D695EA30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BBBBAE6CECB561C5CB977E56ECAAED0D /* Pods-LinPhoneSwiftExample */,
+				53AC3D81ECDCE6C32DD157FBCB5CCDD1 /* BelledonneToolbox */,
+				23204B918AF7E76CD6646713DA5743E9 /* LinPhoneSwift */,
+				09312D7F2831A57BE420B9401FC4F0FD /* Pods-LinPhoneSwiftExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A3358DCA6B6FAAD286D1937B7607A72C /* Sources */ = {
+		9EDC4838AD92C74BDA0B5F2BA4CDCF3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E938AB8E4EE1935216F361E02F2ED3E8 /* Pods-LinPhoneSwiftExample-dummy.m in Sources */,
+				6DB8E9207D3DE5353266ECC3F0127F9C /* Pods-LinPhoneSwiftExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC527CA70C6AC845F28A3C8275E8CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3416F9194091CACF27B3134AB0FA7A57 /* BelledonneToolbox-dummy.m in Sources */,
+				C88C884A00A8D740E3C121537A6FF21D /* Bool.swift in Sources */,
+				64A9E1232045D646916FBCF33146CCA6 /* Handle.swift in Sources */,
+				4746FE1A3F509C66C7CF55A0B4F6814E /* LinkedList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73B4C137F866D6A92015FDD066E0B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A521F31A255EB4935A13DAC672D50EBC /* Address.swift in Sources */,
+				098E59D24451420E9C4C9C42B2073A78 /* Bool.swift in Sources */,
+				FB449C6E2FABF04CE87A6D8ED67A36BB /* Call.swift in Sources */,
+				7DA2FF25CCDEF4D2CEB63347650E6FE5 /* CallLog.swift in Sources */,
+				017DCABE746DAF7A4D3386D386FA7683 /* CallParameters.swift in Sources */,
+				26E9D97D2CD4C8EE4E6DF7C0A7D3E5DB /* CallStats.swift in Sources */,
+				D72F8C4F876A2A4774EE0B059C19E4C5 /* Conference.swift in Sources */,
+				6966C4451426349F10F32FC6E390258A /* Configuration.swift in Sources */,
+				22217F86FCE35D8562819459E1A90809 /* Core.swift in Sources */,
+				3A38CF39142405B056D8A28E70D7B36E /* Enumeration.swift in Sources */,
+				B8A786CF3DAAEB024F585AA1FF315176 /* ErrorInfo.swift in Sources */,
+				07CEA911DEA8A62A6AE84586D47FB162 /* Factory.swift in Sources */,
+				543BA0699BF597512D876C806DA07EB5 /* Handle.swift in Sources */,
+				F273713BFC60D91C572C146B67A25E4A /* Internal.swift in Sources */,
+				54CF6BA7665DE6B19C231F20860621C3 /* LinPhoneSwift-dummy.m in Sources */,
+				7EF61C0D35F0B440007469B08F0579DF /* MediaEncryption.swift in Sources */,
+				C077EEFC27870915AD5001C844B5D995 /* ObjectHandle.swift in Sources */,
+				6512FA2673E620555163CFB65074E538 /* PayloadType.swift in Sources */,
+				1F11FB2BF833BF2D1B67C43928B64602 /* Reason.swift in Sources */,
+				B3E238532A70BB2FBCA5F275F84CD7E0 /* RegistrationState.swift in Sources */,
+				D223F13D1D0579C0BD5EFB31DD4B4BCA /* SipTransports.swift in Sources */,
+				D9E7C2B6C31706B8038574046DDBE1A4 /* StreamType.swift in Sources */,
+				BB260625AB0A5B14B0D25149D6919954 /* Transport.swift in Sources */,
+				8E12880ECCB6507E344D6A776C7062A8 /* Tunnel.swift in Sources */,
+				BF16F4FA3636000F0B72CBE354CD32D0 /* VideoPolicy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		45B1A992B9967806AE0192C465FCFE8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BelledonneToolbox;
+			target = 53AC3D81ECDCE6C32DD157FBCB5CCDD1 /* BelledonneToolbox */;
+			targetProxy = 12353ABA31CB42CB9FB40872FC689F5C /* PBXContainerItemProxy */;
+		};
+		D5816B90232F188112DDC91BC7F1E9AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LinPhoneSwift;
+			target = 23204B918AF7E76CD6646713DA5743E9 /* LinPhoneSwift */;
+			targetProxy = 7636DEF349AE89D911A6AAB5C2A7FB22 /* PBXContainerItemProxy */;
+		};
+		F6CB36C433E935B0BD53F91B33944139 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BelledonneToolbox;
+			target = 53AC3D81ECDCE6C32DD157FBCB5CCDD1 /* BelledonneToolbox */;
+			targetProxy = 29B6890BE6C1E5CDA6BDD24177D901B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		4E16579B704C01AB5F68FA09C586EC90 /* Debug */ = {
+		140ECE6E761C5B1486A5D9FB7FBDCC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE636EAEA293B67FCC7D84FA7364B04 /* Pods-LinPhoneSwiftExample.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LinPhoneSwiftExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LinPhoneSwiftExample/Pods-LinPhoneSwiftExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LinPhoneSwiftExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C0DA5719FE415489E39BFF7F5BD8EA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -268,13 +608,48 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_INCLUDE_PATHS = "$SRCROOT/liblinphone-sdk/iOS/apple-darwin/include";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		AC1AFD0C7CE5D2196421E1DC986DED43 /* Debug */ = {
+		497C5A62DF9410B5BB6CC331F90B21F9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDE636EAEA293B67FCC7D84FA7364B04 /* Pods-LinPhoneSwiftExample.debug.xcconfig */;
+			baseConfigurationReference = EAA2079936CAF020B8EFE4A0C51427B5 /* BelledonneToolbox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BelledonneToolbox/BelledonneToolbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BelledonneToolbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BelledonneToolbox/BelledonneToolbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BelledonneToolbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		811CB3831422BD6BC46F30856DB0CB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAA2079936CAF020B8EFE4A0C51427B5 /* BelledonneToolbox.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -288,27 +663,26 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LinPhoneSwiftExample/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/BelledonneToolbox/BelledonneToolbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BelledonneToolbox/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LinPhoneSwiftExample/Pods-LinPhoneSwiftExample.modulemap";
+				MODULEMAP_FILE = "Target Support Files/BelledonneToolbox/BelledonneToolbox.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LinPhoneSwiftExample;
+				PRODUCT_NAME = BelledonneToolbox;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		AD437F2BFE4533E225F1C5E01F86CD7D /* Release */ = {
+		87E7FCB814BE49C42A355C395C3DC844 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -347,12 +721,47 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_INCLUDE_PATHS = "$SRCROOT/liblinphone-sdk/iOS/apple-darwin/include";
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		BFC96F71112D3790CB1516E74DC5EC5F /* Release */ = {
+		B0AB8B4AAE4023BC4C091661899A881D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D1A65CCC6CBEC857F9DD4D4800FE33E /* LinPhoneSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LinPhoneSwift/LinPhoneSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LinPhoneSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LinPhoneSwift/LinPhoneSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LinPhoneSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0C6CD4F2459582D4A8790CC1608336A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F9D856EE2515960B58F89A87AE3EFE8F /* Pods-LinPhoneSwiftExample.release.xcconfig */;
 			buildSettings = {
@@ -382,29 +791,84 @@
 				PRODUCT_NAME = Pods_LinPhoneSwiftExample;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
+		BB01FA2715FC18C62C47243320EBB485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D1A65CCC6CBEC857F9DD4D4800FE33E /* LinPhoneSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LinPhoneSwift/LinPhoneSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LinPhoneSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LinPhoneSwift/LinPhoneSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LinPhoneSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		240A7D8D1ED789F27CCFE7521B5B1C18 /* Build configuration list for PBXNativeTarget "Pods-LinPhoneSwiftExample" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC1AFD0C7CE5D2196421E1DC986DED43 /* Debug */,
-				BFC96F71112D3790CB1516E74DC5EC5F /* Release */,
+				2C0DA5719FE415489E39BFF7F5BD8EA6 /* Debug */,
+				87E7FCB814BE49C42A355C395C3DC844 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		5D2D9A6A3E3911832F3A7ABCC97D8360 /* Build configuration list for PBXNativeTarget "BelledonneToolbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E16579B704C01AB5F68FA09C586EC90 /* Debug */,
-				AD437F2BFE4533E225F1C5E01F86CD7D /* Release */,
+				811CB3831422BD6BC46F30856DB0CB8D /* Debug */,
+				497C5A62DF9410B5BB6CC331F90B21F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CF248E9860831891B3415B5098696D /* Build configuration list for PBXNativeTarget "Pods-LinPhoneSwiftExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140ECE6E761C5B1486A5D9FB7FBDCC64 /* Debug */,
+				B0C6CD4F2459582D4A8790CC1608336A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FA2F266956EF78216E16AD44547AEDC /* Build configuration list for PBXNativeTarget "LinPhoneSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB01FA2715FC18C62C47243320EBB485 /* Debug */,
+				B0AB8B4AAE4023BC4C091661899A881D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
